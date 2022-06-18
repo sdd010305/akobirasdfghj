@@ -1,0 +1,119 @@
+.todo{
+    width: 400px;
+    max-width: 90%;
+    margin: auto;
+}
+  .wrapper {
+    margin-top: 20px;
+  }
+  .one_wrapper {
+    margin: 2px 0px;
+    display: flex;
+    align-items: center;
+  }
+  .one_content {
+    flex-grow: 1;
+  }
+  .one_actions {
+    width: 140px;
+    text-align: center;
+    justify-self: flex-end;
+  }
+
+  /* =================================== */
+  /* ========== UI ELEMENTS =========== */
+  /* =================================== */
+  button {
+    padding: 5px 15px;
+    border-radius: 3px;
+  }
+  .button_edit {
+    background-color: rgb(236, 173, 55);
+    border: 1px solid rgb(226, 174, 31);
+  }
+  .button_delete {
+    background-color: rgb(226, 31, 31);
+    border: 1px solid rgb(160, 14, 14);
+    color: rgb(233, 233, 233);
+  }
+  .button__edit__todo,
+  .button_add {
+    background-color: rgb(5, 216, 5);
+    border: 1px solid green;
+  }
+  /* =================================== */
+  /* ======== GENERAL STYLES =========== */
+  /* =================================== */
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 4px 2px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    border: 1px solid grey;
+  }
+  h3 {
+    margin: 0;
+  }
+  
+
+/* ================== Edit Modal    ================== */
+
+
+
+ 
+.edit__modal {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  border: 1px solid grey;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgba(63, 63, 63, 0.269);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__content {
+  position: relative;
+  padding: 30px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.modal__close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 8px;
+}
+  /* =================================== */
+  /* ======== GENERAL STYLES =========== */
+  /* =================================== */
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 4px 2px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    border: 1px solid grey;
+  }
+  h3 {
+    margin: 0;
+  }
+
+  /* loader */
+
+  #loader{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+  }

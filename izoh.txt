@@ -1,0 +1,5 @@
+1. todoapp edit delete va create.
+2. xss bilan ishlash.
+3. LocalStorage bilan ishlash.
+4. OOP bilan ishlash.
+5. Real loyihada ishlatib internetga joylash.
